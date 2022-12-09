@@ -8,14 +8,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity2 extends AppCompatActivity {
+public class Ingreso extends AppCompatActivity {
     private Button btnProduct1, btnProduct2, btnProduct3;
     private TextView textProduct1, textProduct2, textProduct3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.ingreso);
 
         btnProduct1 = (Button) findViewById(R.id.btnProduct1);
         btnProduct2 = (Button) findViewById(R.id.btnProduct2);

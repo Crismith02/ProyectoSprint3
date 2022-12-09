@@ -11,5 +11,5 @@
     <string name="Product2">Pianos</string>
     <string name="Product3">Violines</string>
     //TextMainAct3
-    <string name="buttonReturn">Ver Instrumentos</string>
+    <string name="btnProduct">Ver Instrumentos</string>
 </resources>

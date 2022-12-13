@@ -27,7 +27,7 @@ public class Ingreso extends AppCompatActivity {
         btnProduct1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity4.class);
                 intent.putExtra( "title", textProduct1.getText().toString());
                 startActivity(intent);
 
@@ -37,7 +37,7 @@ public class Ingreso extends AppCompatActivity {
         btnProduct2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity4.class);
                 intent.putExtra( "title", textProduct2.getText().toString());
                 startActivity(intent);
 
@@ -47,7 +47,7 @@ public class Ingreso extends AppCompatActivity {
         btnProduct3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity4.class);
                 intent.putExtra( "title", textProduct3.getText().toString());
                 startActivity(intent);
 

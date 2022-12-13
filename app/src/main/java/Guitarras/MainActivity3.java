@@ -1,4 +1,4 @@
-package com.example.music;
+/*package com.example.music;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -60,4 +60,4 @@ public class MainActivity3 extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-}
+}*/

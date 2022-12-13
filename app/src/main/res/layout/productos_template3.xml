@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:gravity="center"
-    android:layout_height="wrap_content"
-    android:paddingBottom="15dp">
+    android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/imgProduct"
+        android:id="@+id/imgProducto"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_weight="1"
@@ -22,22 +21,22 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/tvNameProduct"
-            android:layout_width="match_parent"
+            android:id="@+id/tvNombreProducto"
             android:layout_weight="1"
             android:textSize="26dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/tvDescriptionProduct"
+            android:id="@+id/tvDescripcionProducto"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/tvPriceProduct"
+            android:id="@+id/tvPrecioProducto"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,5 +44,10 @@
             android:text="TextView" />
     </LinearLayout>
 
-
+    <Button
+        android:id="@+id/btnProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
 </LinearLayout>

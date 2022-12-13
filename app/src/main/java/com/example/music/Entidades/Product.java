@@ -1,4 +1,4 @@
-package com.example.music.Entidades;
+/*package com.example.music.Entidades;
 
 public class Product {
     private int id;
@@ -49,3 +49,4 @@ public class Product {
         this.price = price;
     }
 }
+*/

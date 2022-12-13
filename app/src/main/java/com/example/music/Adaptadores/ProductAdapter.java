@@ -1,4 +1,4 @@
-package com.example.music.Adaptadores;
+/*package com.example.music.Adaptadores;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,7 +26,7 @@ public class ProductAdapter extends BaseAdapter {
         this.arrayProductos = arrayProductos;
     }
 
-    @Override
+   @Override
     public int getCount() {
         return arrayProductos.size();
     }
@@ -72,4 +72,4 @@ public class ProductAdapter extends BaseAdapter {
         });
         return view;
     }
-}
+}*/

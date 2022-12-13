@@ -8,8 +8,11 @@
     <string name="btnProduct2">INFO</string>
     <string name="btnProduct3">INFO</string>
     <string name="Product1">Guitarras</string>
-    <string name="Product2">Pianos</string>
     <string name="Product3">Violines</string>
     //TextMainAct3
     <string name="btnProduct">Ver Instrumentos</string>
+
+    //textMainAct4
+    <string name="TextTitlePIANOS">PIANOS</string>
+    <string name="Product2">Pianos</string>
 </resources>

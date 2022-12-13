@@ -1,4 +1,4 @@
-package com.example.music.Service;
+/*package com.example.music.Service;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
@@ -34,4 +34,4 @@ public class ProductService {
         byte[] byteArray = stream.toByteArray();
         return byteArray;
     }
-}
+}*/

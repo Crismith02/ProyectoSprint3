@@ -2,6 +2,8 @@ package com.example.music.Adaptadores;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -53,7 +55,8 @@ public class ProductoAdaptadores3 extends BaseAdapter {
         TextView tvPrecioProducto = (TextView) view.findViewById(R.id.tvPrecioProducto);
         Button btnProducto = (Button) view.findViewById(R.id.btnProducto);
 
-        imgProducto.setImageResource(producto3.getImagen());
+        Bitmap bitmap = BitmapFactory.decodeByteArray(producto3.getImagen(), 0, producto3.getImagen().length);
+        imgProducto.setImageBitmap(bitmap);
         tvNombreProducto.setText(producto3.getNombre());
         tvDescripcionProducto.setText(producto3.getDescripcion());
         tvPrecioProducto.setText(String.valueOf(producto3.getPrecio()));
@@ -62,10 +65,10 @@ public class ProductoAdaptadores3 extends BaseAdapter {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context.getApplicationContext(),Lista.class);
-                intent.putExtra("name", producto3.getNombre());
+                intent.putExtra("nombre", producto3.getNombre());
                 intent.putExtra("descripcion", producto3.getDescripcion());
                 intent.putExtra("precio", producto3.getPrecio());
-                intent.putExtra("imagen", producto3.getImagen());
+                intent.putExtra("id", producto3.getId());
                 context.startActivity(intent);
             }
         });

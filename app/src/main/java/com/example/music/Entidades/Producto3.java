@@ -1,23 +1,26 @@
 package com.example.music.Entidades;
 
 public class Producto3 {
-    private int imagen;
+    private int id;
+    private byte[] imagen;
     private String nombre;
     private String descripcion;
     private int precio;
 
-    public Producto3(int imagen, String nombre, String descripcion, int precio) {
+    public Producto3(int id, byte[] imagen, String nombre, String descripcion, int precio) {
+        this.id = id;
         this.imagen = imagen;
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precio = precio;
     }
+    public int getId(){return id;}
 
-    public int getImagen() {
+    public byte[] getImagen() {
         return imagen;
     }
 
-    public void setImagen(int imagen) {
+    public void setImagen(byte[] imagen) {
         this.imagen = imagen;
     }
 
